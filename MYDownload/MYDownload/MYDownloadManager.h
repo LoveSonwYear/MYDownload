@@ -51,11 +51,15 @@
  单利
  */
 + (MYDownloadManager *)shareDownloadManager;
-
 /**
  清楚所以下载完的文件
  */
-- (void)claerAllRequest;
+- (void)clearAllRequest;
+
+/**
+ 清除所有下载完的文件
+ */
+- (void)clearAllFinished;
 
 /**
  恢复下载
